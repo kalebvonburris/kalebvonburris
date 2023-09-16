@@ -402,3 +402,6 @@ FodyWeavers.xsd
 *.fls
 *.fdb_latexmk
 *.aux
+*.out
+*.xml
+*.bcf

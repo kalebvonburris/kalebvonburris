@@ -1,18 +1,46 @@
-﻿\documentclass[12pt]{memoir}
+﻿\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
 
+%------------------------------------------------------------------ Includes
 
-%------------------------------------------------------------------ Variablen
+\usepackage{graphicx}
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{RedViolet}
+
+\usepackage{simplecv}
+
+%------------------------------------------------------------------ Configuration
+
+\graphicspath{ {./images/} }
+
+%------------------------------------------------------------------ Variables
 
 \newlength{\rightcolwidth}
 \newlength{\leftcolwidth}
 \setlength{\leftcolwidth}{0.23\textwidth}
 \setlength{\rightcolwidth}{0.75\textwidth}
 
-%------------------------------------------------------------------
+%------------------------------------------------------------------ Commands
+
+\newcommand{\horizontal}{\noindent\rule{\hsize}{0.4pt}}
+\bibliography{papers}
+
+%------------------------------------------------------------------ Document
 
 \begin{document}
-    
+
+    \headinginline{Kaleb Burris}{
+        Email: \email{krburris@alaska.edu} \\
+        LinkedIn: \linkedin{kaleb-burris} \\
+        GitHub: \github{kalebvonburris}
+    }
+
+    \import{sections/}{education.tex}
+    \import{sections/}{experience.tex}
+    \import{sections/}{skills.tex}
+
 \end{document}
