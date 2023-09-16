@@ -19,6 +19,10 @@ I'm Kaleb, a software engineer with experience in C++, Java, Rust, and Python.
 
 I love recreational mathematics, computer science, artificial intelligence, graphics, table top roleplaying games, and much more!
 
+## Resume
+
+Find my resume [here](https://github.com/kalebvonburris/kalebvonburris/blob/main/resume/resume.pdf).
+
 ## Repositories
 
 ### School Work
