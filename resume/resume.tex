@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{fancyhdr}
 
 %------------------------------------------------------------------ Includes
 
@@ -9,7 +10,7 @@
 \usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
-\def\theme{RedViolet}
+\def\theme{MidnightBlue}
 
 \usepackage{simplecv}
 
@@ -32,15 +33,17 @@
 %------------------------------------------------------------------ Document
 
 \begin{document}
-
     \headinginline{Kaleb Burris}{
-        Email: \email{krburris@alaska.edu} \\
-        LinkedIn: \linkedin{kaleb-burris} \\
+        Email: \email{kaleb.r.burris@gmail.com} \\
+        LinkedIn: \linkedin{kaleb-burris}       \\
         GitHub: \github{kalebvonburris}
     }
 
+    \import{sections/}{intro.tex}
     \import{sections/}{education.tex}
     \import{sections/}{experience.tex}
     \import{sections/}{skills.tex}
+
+    \fancyfoot[ROF]{Created with \LaTeX}
 
 \end{document}
