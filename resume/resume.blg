@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'resume.blg'
-[101] biber-MSWIN32:340> INFO - === 
-[131] Biber.pm:418> INFO - Reading 'resume.bcf'
-[229] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[242] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
-[243] bbl.pm:757> INFO - Output to resume.bbl
-[243] Biber.pm:130> WARN - The file 'resume.bcf' does not contain any citations!
-[243] Biber.pm:132> INFO - WARNINGS: 1
+[70] biber:340> INFO - === Wed Oct 11, 2023, 13:02:53
+[84] Biber.pm:418> INFO - Reading 'resume.bcf'
+[138] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[151] bbl.pm:654> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[151] bbl.pm:757> INFO - Output to resume.bbl
+[151] Biber.pm:130> WARN - The file 'resume.bcf' does not contain any citations!
+[151] Biber.pm:132> INFO - WARNINGS: 1
